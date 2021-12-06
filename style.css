@@ -2,25 +2,51 @@
     margin: 0;
     
 }
-
-.im{height: 10% 
-    ;width: 10%
+#prev{
+    margin:10px 10px ;
+    height: 200px ;
+    width: 300px;
+    border: 1px solid black;
+    position: relative;
+    left: 600px;
 }
-.right{right: 30%;
-    }
+#left2{
+   
+}
+#ok{
+    /* position: relative;
+    left: 500px;
+    top: -350px; */
+}
+.im{
+    height: 120px;
+    width:170px;
+}
+
 .style1{
     color: red;
 }
 .right{
-    right: 124px;
-    padding:10px;
+    /* padding: 10px;
     border: 1px solid #aaaaaa;
-
+    position: relative;
+    left:30px;
+    display: flex; */
+    position: relative;
+    left: 800px;
+    top:-374px;
 }
+
 .head{
     text-align: center;
     background-color:rgba(172, 51, 132, 0.678);
-     margin: 0px;
-    padding: 0px; 
+    margin: 0px;
+    padding: 10px; 
 
+}
+td{
+   
+    height: 120px;
+    width: 170px;    
+    border:1px solid black ;
 }

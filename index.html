@@ -11,10 +11,13 @@
     <div class="head">
         <h1>C18 Puzzel</h1>
     </div>
+
     <div id="left">
-        
-        <img src="images/Image from iOS.jpg" style="height: 20% ;width: 20%;">
-        <div>
+        <div><img src="images/Image from iOS.jpg" id="prev" ></div>
+        <button id="ok">try your chance</button>
+        <p class="text"></p>
+    
+        <div id="left2">
             <div>
                 <img src="images/conteneur/1.jpg"class="im" id="drag1"draggable='true' ondragstart="drag(event)">
                 <!-- <input type="text" class="inp" id="input1"> -->
@@ -40,13 +43,34 @@
                 <!-- <input type=""inp" id="input9"> -->
             </div>
         </div>
-        <button id="ok">try your chance</button>
     </div>
-    <div>
+
+        
+    
+    <!-- <div id="flex"> 
         <div class="right" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         <div class="right" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
         <div class="right" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-     </div>
+     </div> -->
+        <table class="right">
+            <tr>
+                 <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                 <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                 <td id="td3" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            </tr>
+            <tr>
+                <td id="td4" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td id="td5" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td id="td6" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            </tr>
+            <tr>
+                <td id="td7" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td id="td8" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+                <td id="td9" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            </tr>
+        </table>
+    </div>
+
     <script src="main.js"></script>
 </body>
 </html>
