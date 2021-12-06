@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    
+}
+
+.im{height: 10% 
+    ;width: 10%
+}
+.right{right: 30%;
+    }
+.style1{
+    color: red;
+}
+.right{
+    right: 124px;
+    padding:10px;
+    border: 1px solid #aaaaaa;
+
+}
+.head{
+    text-align: center;
+    background-color:rgba(172, 51, 132, 0.678);
+     margin: 0px;
+    padding: 0px; 
+
+}
