@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='jquery-3.6.0.js'></script>
     <title>C18 Puzzel</title>
 </head>
 <body>
@@ -14,44 +15,11 @@
 
     <div id="left">
         <div><img src="images/Image from iOS.jpg" id="prev" ></div>
-        <button id="ok">try your chance</button>
-        <p class="text"></p>
-    
-        <div id="left2">
-            <div>
-                <img src="images/conteneur/1.jpg"class="im" id="drag1"draggable='true' ondragstart="drag(event)">
-                <!-- <input type="text" class="inp" id="input1"> -->
-                <img src="images/conteneur/6.jpg"class="im" id="drag2"draggable='true' ondragstart="drag(event)">
-                <!-- <input type="text" class="inp" id="input2"> -->
-                <img src="images/conteneur/9.jpg"class="im" id="drag3"draggable='true' ondragstart="drag(event)">
-                <!-- <input type="text" class="inp" id="input3"> -->
-            </div>
-            <div>
-                <img src="images/conteneur/4.jpg"class="im" id="drag4"draggable='true' ondragstart="drag(event)">
-                <!-- <input type="text" class="inp" id="input4"> -->
-                <img src="images/conteneur/2.jpg"class="im" id="drag5"draggable='true' ondragstart="drag(event)">
-                <!-- <input type="text" class="inp" id="input5"> -->
-                <img src="images/conteneur/7.jpg"class="im" id="drag6"draggable='true' ondragstart="drag(event)">
-                <!-- <input type="text" class="inp" id="input6"> -->
-            </div>
-            <div>
-                <img src="images/conteneur/3.jpg"class="im" id="drag7"draggable='true' ondragstart="drag(event)">
-                <!-- <input type="text" class="inp" id="input7"> -->
-                <img src="images/conteneur/8.jpg"class="im" id="drag8"draggable='true' ondragstart="drag(event)">
-                <!-- <input type="text" class="inp" id="input8"> -->
-                <img src="images/conteneur/5.jpg"class="im" id="drag9"draggable='true' ondragstart="drag(event)">
-                <!-- <input type=""inp" id="input9"> -->
-            </div>
-        </div>
-    </div>
-
+        <button id="ok">try again</button>
+        <h2 class="text">complete the puzzel in 9 shots</h2>
+        <div id="left2"></div>
         
-    
-    <!-- <div id="flex"> 
-        <div class="right" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div class="right" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
-        <div class="right" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-     </div> -->
+    </div>
         <table class="right">
             <tr>
                  <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
@@ -70,7 +38,7 @@
             </tr>
         </table>
     </div>
-
+    
     <script src="main.js"></script>
 </body>
 </html>
